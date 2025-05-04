@@ -4,6 +4,7 @@ import Resume from './pages/Resume'
 import CompaniesList from './pages/CompaniesList'
 import { Routes, Route } from 'react-router-dom';
 import WhyUs from './pages/WhyUs';
+import StepsForResume from './pages/StepsForResume';
 
 const Landing = () => {
   return (
@@ -12,6 +13,7 @@ const Landing = () => {
        <Resume/>
        <CompaniesList/>
        <WhyUs/>
+       <StepsForResume/>
     </div>
   )
 }
